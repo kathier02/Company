@@ -52,9 +52,6 @@ A responsive company website clone built using **HTML5** and **CSS3**. This proj
 
 The purpose of this project is to practice front-end web development skills by building a responsive company website using only HTML and CSS.
 
-## 📸 Screenshots
-
-Add screenshots of your project here.
 
 ## 🌐 Live Demo
 
