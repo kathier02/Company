@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "Outfit", sans-serif;
+}
+.container-fluid{
+  padding: 15px 0;
+}
+.navbar-brand{ 
+  padding-left: 100px;
+  font-size: 30px;
+}
+.navbar-brand span{
+  color: #00b140;
+}
+#navbarSupportedContent{
+  padding-left: 150px;
+}
+.nav-item{
+  margin: 0 10px;
+}
+.logos{
+  /* border: 1px solid black; */
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+.logos i{
+  padding: 0px 10px;
+  font-size:18px;
+  /* margin-left:15px; */
+}
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link:hover,.bi-twitter-x:hover,.bi-facebook:hover,.bi-instagram:hover,.bi-linkedin:hover{
+  color: green;
+}
+#navbarSupportedContent .navbar-nav .nav-item .nav-link.active{
+  color: green;
+}
+
+/* Position submenu to the right */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  /* margin-top: -1px; */
+  /* margin-left: 0.1rem; */
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+/* Show submenu on hover */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.cont2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: #00b140;
+    color: white;
+    align-items: center;
+}
+.cont2 a{
+    text-decoration: none;
+    color: white;
+}
+.about{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.right img{
+  width: 724px;
+  height: 568px;
+  margin-right: 35px;
+  margin-top: 50px;
+  animation: zoom-in-zoom-out 1s ease;
+}
+@keyframes zoom-in-zoom-out {
+  80% {
+    scale: 80%;
+  }
+}
+.left h1{
+  margin-left: 80px;
+  width: 55%;
+}
+.box{
+  background-color: rgb(238, 234, 234);
+  padding: 25px;
+  padding-right: 150px;
+  width: 100%;
+  margin-left: 120px;
+  margin-top: 100px;
+  font-weight: 300;
+
+}
+.box p{
+  font-size: 16px;
+  line-height: 2;
+}
+.bi-check-circle{
+  margin-right: 5px;
+  color: #00b140;
+}
+
+
+.member-img{
+  position: relative;
+  overflow: hidden;
+}
+
+.member-img img {
+  width: 100%;
+  display: block;
+}
+
+.member-img .social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  opacity: 0.5;
+  background-color: black;
+  transform: translateY(100%);
+  transition: 0.4s ease;
+}
+.member-img:hover .social {
+  transform: translateY(0);
+}
+.social i{
+  padding: 5px;
+  color: #00b140;
+}
+
+.clients {
+  padding: 60px 0;
+}
+
+.clients h2 {
+  font-weight: 700;
+}
+
+.clients .line {
+  width: 50px;
+  height: 3px;
+  background: #1bbd36;
+  margin: 10px auto 20px;
+}
+.clients .row{
+  gap:0;
+}
+
+.client-box {
+  border: 1px solid #eaeaea;
+  padding: 30px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  overflow: hidden; 
+}
+.client-box img {
+  max-width: 100%;
+  max-height: 60px;
+  /* overflow: hidden; */
+}
+.client-box img{
+      transition: 0.4s;
+}
+.client-box:hover img{
+  transform: scale(1.08); 
+  /* background-color: #5555551c; */
+  opacity: 1.0;           
+}
+.client-box:hover{
+  background-color: #5555551c;
+}
+.part1,.part2,.part3{
+  margin: 70px 0;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.one,.two,.three,.four{
+    width: 350px;
+    font-size: 16px;
+    color: white;
+    /* margin-left: 80px; */
+}
+.logos{
+  margin-top: 30px;
+}
+.d-flex{
+  margin-top: 30px;
+}
+.form-control,.btn-outline-success{
+    border-radius: 0px;
+}
+.one i{
+  margin:10px 8px;
+  padding:4px 8px;
+  height: 35px;
+  width: 35px;
+  border: 1px solid;
+  /* display: block; */
+  border-radius: 50%;
+}
+.one i:hover{
+  color: #00b140;
+  transition: 0.3s ease-in;
+}
+.one{
+  margin-left: 80px;
+}
+.four{
+  margin-right: 80px;
+}
+footer p{
+    /* line-height: 2.5; */
+    font-weight: 200;
+}
+footer .one p{
+    line-height: 1.5;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+footer h4{
+    font-weight: 300;
+}
+footer a{
+    text-decoration-line: none;
+    color: white;
+    line-height: 1.8;
+}
+footer a:hover{
+  color: #00b140;
+}
+.two p,.four p{
+    margin: auto;
+    line-height: 1.8;
+}
+.bottom2{
+  color: white;
+  text-align: center;
+}
+.bottom2 span{
+  color: #00b140;
+}
+.bottom2 p{
+  margin-top: 10px;
+  margin-bottom: 0;
+}

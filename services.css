@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "Outfit", sans-serif;
+}
+.container-fluid{
+  padding: 15px 0;
+}
+.navbar-brand{ 
+  padding-left: 100px;
+  font-size: 30px;
+}
+.navbar-brand span{
+  color: #00b140;
+}
+#navbarSupportedContent{
+  padding-left: 150px;
+}
+.nav-item{
+  margin: 0 10px;
+}
+.logos{
+  /* border: 1px solid black; */
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+.logos i{
+  padding: 0px 10px;
+  font-size:18px;
+  /* margin-left:15px; */
+}
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link:hover,.bi-twitter-x:hover,.bi-facebook:hover,.bi-instagram:hover,.bi-linkedin:hover{
+  color: green;
+}
+#navbarSupportedContent .navbar-nav .nav-item .nav-link.active{
+  color: green;
+}
+
+/* Position submenu to the right */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  /* margin-top: -1px; */
+  /* margin-left: 0.1rem; */
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+/* Show submenu on hover */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.cont2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: #00b140;
+    color: white;
+    align-items: center;
+}
+.cont2 a{
+    text-decoration: none;
+    color: white;
+}
+.col{
+  width: 500px;
+  /* background-color: aqua; */
+  height: 350px;
+  background-color:rgb(238, 234, 234);
+  box-shadow: gray;
+  text-align: center;
+  padding-top: 70px;
+}
+.container{
+  margin-top: 100px;
+  margin-bottom: 100px; 
+}
+.row{
+  margin: 20px;
+  gap: 20px;
+}
+.col h1{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+
+.icon-box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-box i {
+    font-size: 40px;
+    z-index: 2;
+    position: relative;
+}
+
+/* SVG hidden by default */
+.bg-shape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.7s ease;
+}
+
+/* Show SVG on hover */
+.col:hover .bg-shape {
+    opacity: 1;
+}
+.bi-activity{
+  color: #0dcaf0;
+}
+.bi-broadcast{
+  color: #fd7e14;
+}
+.bi-tv{
+  color: #20c997;
+}
+.bi--bounding-box-circles{
+  color: #df1529;
+}
+.bi-calandar-week{
+  color: #6610f2;
+}
+.bi-chat-right-dots{
+  color: #f3268c;
+}
+.col:hover .bi{
+  color: white;
+}
+
+
+.features-item{
+  display: flex;
+  align-items: center;
+}
+.features-item i{
+  font-size: 30px;
+  margin-right: 15px;
+}
+.features-item a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.boxes{
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+.features-item:hover a{
+  color: #00b140;
+}
+.boxes:hover{
+  border:1px solid #00b140;
+}
+
+
+
+
+footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.one,.two,.three,.four{
+    width: 350px;
+    font-size: 16px;
+    color: white;
+    /* margin-left: 80px; */
+}
+.logos{
+  margin-top: 30px;
+}
+.d-flex{
+  margin-top: 30px;
+}
+.form-control,.btn-outline-success{
+    border-radius: 0px;
+}
+.one i{
+  margin:10px 8px;
+  padding:4px 8px;
+  height: 35px;
+  width: 35px;
+  border: 1px solid;
+  /* display: block; */
+  border-radius: 50%;
+}
+.one i:hover{
+  color: #00b140;
+  transition: 0.3s ease-in;
+}
+.one{
+  margin-left: 80px;
+}
+.four{
+  margin-right: 80px;
+}
+footer p{
+    /* line-height: 2.5; */
+    font-weight: 200;
+}
+footer .one p{
+    line-height: 1.5;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+footer h4{
+    font-weight: 300;
+}
+footer a{
+    text-decoration-line: none;
+    color: white;
+    line-height: 1.8;
+}
+footer a:hover{
+  color: #00b140;
+}
+.two p,.four p{
+    margin: auto;
+    line-height: 1.8;
+}
+.bottom2{
+  color: white;
+  text-align: center;
+}
+.bottom2 span{
+  color: #00b140;
+}
+.bottom2 p{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
